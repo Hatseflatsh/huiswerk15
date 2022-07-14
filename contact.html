@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stijl.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="menu" href="index.html">Home</a>
+        <a class="menu" href="mijncv.html">Mijn CV</a>
+        <a class="menu" href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <div class="contact">
+      <h1>Contact</h1>
+      <p>Wil je graag met mij in contact komen voor een algemene of support vraag dan kan dat via het onderstaand formulier. Een vraag over het CV kan ook via het formulier worden ingediend.</p>
+      <div class="form-v1">
+      <form id="contactform" action="https://formspree.io/f/xknylqdz" method="post">
+          <input class="form-1b" type="text" name="naam" placeholder="Uw naam"><br>
+          <input class="form-1b" type="text" name="naam" placeholder="Uw achternaam"><br>
+          <input class="form-1b" type="email" name="email" placeholder="Uw email"><br>
+          <input class="form-1b" type="telefoon" name="telefoon" placeholder="Telefoon"><br>
+          <p class="p-ft">Reden van contact</p>
+          <select class="form-1b" name="vraag">
+          <option value="alg" selected>Algemeen</option>
+          <option value="sup">Support</option>
+          <option value="cv">Over CV</option>
+        </select><br><br>
+          <textarea placeholder="Uw boodschap" maxlength="1500"></textarea><br>
+          <input class="csubmit" type="submit" value="Verzend">
+          <br>
+  </form>
+</div>
+    </div>
+  </body>
+  <footer><p>Deze pagina is gemaakt door Mike de Ruiter</p></footer>
+</html>

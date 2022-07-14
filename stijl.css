@@ -1,0 +1,142 @@
+html {
+  text-align: center;
+  vertical-align: middle;
+}
+
+body{
+  font-family: verdana, sans-serif; color: grey; font-size: 14px;
+  background-color: grey;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align:center;
+  vertical-align:middle;
+  padding: 5px
+}
+.menu{
+  color: orange;
+  display: inline-block;
+  text-decoration: none;
+  background-color: grey;
+  vertical-align: initial;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 9px;
+}
+.menu:hover{
+  background-color: white;
+}
+footer {
+  background-color: orange;
+  color: white;
+  opacity: 0.8;
+  text-align: center;
+  height: 35px;
+  border-radius: 4px;
+  vertical-align: middle;
+  padding: 5px;
+}
+header {
+  background-color: blue;
+  color: orange;
+  text-align: center;
+  height: 55px;
+  border-radius: 4px;
+  padding: 5px;
+}
+img {
+  border-radius: 4px;
+}
+.voorpagina, .contact {
+  background-color: white;
+  color: black;
+  margin: 10px 10px 10px 10px;
+  padding: 15px 10px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: grey;
+}
+.table-op  {
+  border-collapse: collapse;
+  border-radius: 10px;
+  width: 600px
+}
+.table-op td {
+  border-color: black;
+  border-style:solid;
+  border-width:1px;
+}
+.opleidingen, .werk, .form-v1 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.td4 {
+  text-align: center;
+  vertical-align: top;
+}
+.td1 {
+  background-color: #f3f6f4;
+}
+.td1:hover {
+  background-color: #e6e6e6;
+}
+.td2, .td4{
+  background-color: #e6e6e6;
+}
+.td2:hover {
+  background-color: #f3f6f4;
+}
+.table-we  {
+  border-collapse: collapse;
+  border-radius: 10px;
+  width: 600px
+}
+.table-we td {
+  border-color: black;
+  border-style:solid;
+  border-width:1px;
+}
+#contactform {
+  width: 600px;
+  background-color: grey;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+form {
+  vertical-align:middle;
+  text-align: center;
+}
+input [type="text"], input [type="email"], <input [type="telefoon"], select [name="vraag"] {
+  display: block
+  box-sizing: border-box;
+  width: 400px
+  border-radius: 10px
+}
+.form-1b {
+  border-radius: 6px;
+}
+textarea {
+  height: 150px;
+  width: 550px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.csubmit {
+  background-color: orange;
+  color: blue;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 10px;
+}
+.csubmit:active {
+  background-color: blue;
+  color: orange
+}
+.p-ft {
+  font-size: 10px;
+}
